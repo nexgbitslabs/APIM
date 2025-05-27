@@ -10,6 +10,13 @@ variable "rg_name" {
   description = "Resource group name"
 }
 
+variable "api_name" {
+  type        = string
+  default     = "nbtest-api01"
+  description = "Resource group name"
+}
+
+
 
 variable "resource_group_name_prefix" {
   type        = string
